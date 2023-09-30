@@ -1,0 +1,483 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+nav{
+    backdrop-filter: saturate(180%) blur(20px);
+    background: rgba(251, 251, 253, .8);
+    width: 100%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    gap: 30px;
+
+}
+
+header nav ul a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.63);
+}
+
+header nav i {
+    font-size: 18px;
+}
+
+header #apple {
+    color: rgba(0, 0, 0, 0.836);
+}
+
+header #icon {
+    color: rgba(16, 16, 16, 0.689);
+}
+
+
+/* nav 2 */
+
+.nav2 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 45px;
+    font-size: 14px;
+    padding: 14px 0px;
+}
+
+.nav2 p a {
+    text-decoration: none;
+    color: rgb(41, 151, 255);
+}
+
+/* main */
+
+
+
+.main{
+
+    width: 100%;
+    height: 640px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url(assets/images/iphone\ 14\ pro.jpg);
+    cursor: pointer;
+    /* background-position: center; */
+    /* background-size: cover; */
+
+}
+
+.imgtext {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #f5f5f7;
+}
+
+
+.imgtext h2 {
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 1.16667;
+    padding-top: 45px;
+}
+
+.main .imgtext h3{
+    font-size: 28px;
+    font-weight: 400;
+    margin-top: 6px;
+    color: #f5f5f7;
+}
+
+.imgtext h3{
+    font-size: 28px;
+    font-weight: 400;
+    margin-top: 6px;
+}
+
+.imgtext p{
+    font-size: 20px;
+    color: rgb(41, 151, 255);
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.imgtext span{
+    font-size: 18px;
+}
+
+.imgtext span:hover{
+text-decoration: underline;
+}
+
+
+
+/*  main 2*/
+
+
+.main2{
+
+    width: 100%;
+    height: 692px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url(assets/images/hero_iphone14.jpg);
+    cursor: pointer;
+    margin-top: 12px;
+    /* background-position: center; */
+    /* background-size: cover; */
+
+}
+
+.main2 h2,h3{
+    color: black;
+}
+
+
+
+/* main 3 */
+
+.main3{
+
+    width: 100%;
+    height: 580px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url(assets/images/hero_macbook_air_15.jpg);
+    cursor: pointer;
+    margin-top: 12px;
+
+    /* background-position: center; */
+    /* background-size: cover; */
+
+}
+
+.main3 h2{
+    padding-top: 50px;
+    font-size: 56px;
+    font-weight: 600;
+}
+.main3 h2,h3{
+    color: black;
+}
+
+/* half */
+
+.half{
+    display: flex;
+    gap: 12px;
+}
+
+/* main4 */
+.main4{
+    width: 100%;
+    height: 580px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url(assets/images/promo.jpeg);
+    cursor: pointer;
+    margin-top: 12px;
+    margin-left: 12px;
+}
+
+.main4 h2{
+    padding-top: 50px;
+    font-size: 40px;
+    font-weight: 600;
+    color: black;
+}
+
+.main4 .h2{
+    padding-top: 7px;
+}
+
+.main4 .p{
+    color: rgba(0, 0, 0, 0.886);
+}
+
+/* main5 */
+
+.main5{
+    width: 100%;
+    height: 580px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url(assets/images/vision.jpg);
+    cursor: pointer;
+    margin-top: 12px;
+    margin-right: 12px;
+}
+
+.main5 h2{
+    font-size: 40px;
+}
+
+.main5 .imgtext{
+    padding-top: 340px;
+    color: black;
+}
+
+.main5 .main5p{
+    color: black;
+    padding: 0px;
+}
+
+.main5 .mainp{
+    color: rgba(0, 0, 0, 0.596);
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+.imgtext span{
+    font-size: 20px;
+    padding-right: 0px;
+}
+
+.imgtext i{
+    padding-top: 6px;
+    padding-left: 0px;
+    font-size: 12px;
+}
+
+.imgtext h2 i{
+    padding-top: 6px;
+    padding-left: 0px;
+    font-size: 35px;
+}
+
+
+
+/* half 2 */
+
+.half2{
+    display: flex;
+    gap: 12px;
+}
+/* main 6 */
+
+.main6{
+    width: 100%;
+    height: 580px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url(assets/images/watch.jpg);
+    cursor: pointer;
+    margin-top: 12px;
+    margin-left: 12px;
+}
+
+.main6 h2{
+    font-size: 35px;
+}
+
+/* .main6 h2 i{
+    font-size: 30px;
+    padding: 0px 4px 4px 0px;
+} */
+
+.main6 .main6p{
+    color: rgba(255, 0, 0, 0.776);
+    font-size: 18px;
+    padding-top: 1px;
+}
+
+.main6 .main6pp{
+    color: #f5f5f7;
+}
+
+/* main 7 */
+
+.main7{
+    width: 100%;
+    height: 580px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url(assets/images/ipad.jpg);
+    cursor: pointer;
+    margin-top: 12px;
+    margin-right: 12px;
+}
+
+.main7 .main7p{
+    color: #f5f5f7;
+}
+/* half 3 */
+
+.half3{
+    display: flex;
+    gap: 12px;
+}
+/* main 8 */
+
+.main8{
+    width: 100%;
+    height: 580px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url(assets/images/iphonestwo.jpg);
+    cursor: pointer;
+    margin-top: 12px;
+    margin-left: 12px;
+}
+
+.main8 h2{
+    color: black;
+    font-size: 35px;
+}
+
+/* .main8 h2 i{
+    font-size: 30px;
+    padding: 0px 0px 4px 0px;
+} */
+
+.main8 .main8p{
+color: black;
+}
+
+
+/* main 9 */
+
+.main9{
+    width: 100%;
+    height: 580px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url(assets/images/phone.jpeg);
+    cursor: pointer;
+    margin-top: 12px;
+    margin-right: 12px;
+}
+
+.main9 h2{
+    color: black;
+    font-size: 35px;
+}
+
+/* .main9 h2 i{
+    font-size: 30px;
+    padding: 0px 0px 4px 0px;
+} */
+
+.main9 .main9p{
+    color:black
+}
+
+/* half 4 */
+
+.half4{
+    display: flex;
+    gap: 12px;
+}
+/* main 10 */
+
+.main10{
+    width: 100%;
+    height: 580px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url(assets/images/arcadeimg.jpg);
+    cursor: pointer;
+    margin-top: 12px;
+    margin-left: 12px;
+}
+
+.main10 h2{
+    color: black;
+    font-size: 35px;
+}
+
+.main10 h2 i{
+    font-size: 35px;
+    padding: 0px 7px 4px 0px;
+}
+
+.main10 p{
+    color:black
+}
+
+/* main 11 */
+
+.main11{
+    width: 100%;
+    height: 580px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url(assets/images/apple\ card.jpg);
+    cursor: pointer;
+    margin-top: 12px;
+    margin-right: 12px;
+}
+
+.main11 h2{
+    color: black;
+    font-size: 35px;
+}
+
+.main11 .main11p{
+    color:black
+}
+
+
+/* footer */
+footer{
+    background-color: #f5f5f7;
+    margin: 12px 0px 0px 0px;
+}
+
+ol li{
+padding: 12px 150px 0px 150px;
+font-size: 15px;
+}
+
+.olli{
+    padding-top: 15px;
+}
+
+footer p{
+    padding:  6px 150px;
+}
+
+/* table */
+
+footer .row1{
+    padding-left:150px;
+}
+footer table td{
+    padding:  2px 25px;
+}
+
+/* footer end */
+
+footer .end{
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    gap: 10px;
+    padding-bottom: 20px;
+
+}
+
+footer .end a{
+    text-decoration: none;
+    color: rgba(95, 95, 95, 0.826);
+
+}
